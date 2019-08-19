@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    width: 100%;
+    height: 15vh;
+    /* background-image: url(./EncabezadoForum.png); */
+}
+
+#Imagen {
+    width: 25%;
+    height: 15vh;
+    background-image: url(./EncabezadoForum.png);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+#caja1 {
+    width: 100%;
+    height: 35vh;
+    background: lightcoral;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(Fondo1.jpg);
+    background-size: contain;
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+#caja2 {
+    width: 96%;
+    height: 30vh;
+    top: calc(1vw);
+    left: calc(3vh);
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    border: 5px solid white;
+}
+
+#caja2 #parrafo1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    bottom: 0;
+    position: absolute;
+}
+
+#caja2 #parrafo2 {
+    top: calc(50%);
+    right: calc(16%);
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#caja2 #parrafo3 {
+    top: calc(60%);
+    right: calc(10%);
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#Letra {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(43, 161, 207);
+}
+
+.cajasCuadradas {
+    width: 25%;
+    height: 50vh;
+    box-sizing: border-box;
+    border: 10px solid white;
+    float: left;
+    background: lightgreen;
+    position: relative;
+}
+
+.cajasCuadradas #cajasCircular1 {
+    /* bottom: 10%; */
+    bottom: 15%;
+    left: 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid rgb(0, 238, 255);
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    background: blue;
+}
+
+.cajasCuadradas #cajasCircular2 {
+    /* bottom: 10%; */
+    bottom: 12%;
+    left: 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(25, 0, 255);
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+}
+
+#parrafo4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#parrafo5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.cajasCuadradas #parrafo6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 15%;
+    bottom: 0;
+    position: absolute;
+}
+
+.cajaColor1 {
+    background: rgb(0, 102, 255);
+}
+
+.cajasCuadradas #cajasCircular1 #parrafo1Circulo1 {
+    position: absolute;
+    left: 6%;
+    top: 21%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 49px;
+}
+
+.cajasCuadradas #cajasCircular1 #parrafo2Circulo2 {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.cajaColor2 {
+    background: black;
+}
+
+.cajasCuadradas #cajasCircular2 #parrafo3Circulo3 {
+    position: absolute;
+    left: 7px;
+    top: 49px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 44px;
+}
+
+.cajasCuadradas #cajasCircular2 #parrafo4Circulo4 {
+    position: absolute;
+    left: 4px;
+    top: 95px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+#Letra1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: rgb(43, 161, 207);
+}
+
+#parrafo7 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#parrafo8 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#parrafo9 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    color: white;
+    text-align: center;
+    bottom: 8%;
+    position: absolute;
+}
+
+#parrafo10 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: lightskyblue;
+    text-align: center;
+    bottom: 3%;
+    left: 35%;
+    position: absolute;
+}
+
+#parrafo11 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    left: 24%;
+    bottom: 0%;
+    position: absolute;
+}
+
+.cajaColor3 {
+    background-image: url(./Face1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+
+.cajaColor4 {
+    background-image: url(./Fondo3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#parrafo12 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 39px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 61%;
+    position: absolute;
+}
+
+#parrafo13 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 70%;
+    position: absolute;
+}
+
+#Letra3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: rgb(43, 161, 207);
+}
+
+#parrafo14 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    left: 22%;
+    bottom: 50%;
+    position: absolute;
+}
+
+#parrafo15 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 44%;
+    position: absolute;
+}
+
+#parrafo16 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 40%;
+    position: absolute;
+}
+
+#parrafo17 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 35%;
+    position: absolute;
+}
+
+#parrafo18 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 30%;
+    position: absolute;
+}
+
+#parrafo19 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 24%;
+    position: absolute;
+}
+
+#parrafo20 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    left: 7%;
+    bottom: 20%;
+    position: absolute;
+}
